@@ -1,0 +1,959 @@
+2020-04-18 04:26:13,472 - Using Log4J as the default logging framework
+2020-04-18 04:26:13,480 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:26:13,530 - Platform: Windows
+2020-04-18 04:26:13,533 - -Dio.netty.noUnsafe: false
+2020-04-18 04:26:13,533 - Java version: 8
+2020-04-18 04:26:13,536 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:26:13,537 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:26:13,538 - java.nio.Buffer.address: available
+2020-04-18 04:26:13,539 - direct buffer constructor: available
+2020-04-18 04:26:13,540 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:26:13,540 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:26:13,540 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:26:13,541 - sun.misc.Unsafe: available
+2020-04-18 04:26:13,541 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:26:13,541 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:26:13,543 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:26:13,544 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:26:13,544 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:26:13,545 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:26:13,573 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:26:13,573 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:26:13,586 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:26:13,700 - -Dio.netty.processId: 5904 (auto-detected)
+2020-04-18 04:26:13,703 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:26:13,703 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:26:14,083 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:26:14,085 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:26:14,500 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:26:14,947 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:26:14,947 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:26:14,967 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:26:14,967 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:26:15,015 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:26:15,016 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:26:15,016 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:26:15,029 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:26:15,030 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:26:15,030 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:26:15,042 - Unknown channel option 'SO_SNDBUF' for channel '[id: 0x8e87166b]'
+2020-04-18 04:26:22,952 - Using Log4J as the default logging framework
+2020-04-18 04:26:22,958 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:26:23,008 - Platform: Windows
+2020-04-18 04:26:23,011 - -Dio.netty.noUnsafe: false
+2020-04-18 04:26:23,012 - Java version: 8
+2020-04-18 04:26:23,015 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:26:23,016 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:26:23,017 - java.nio.Buffer.address: available
+2020-04-18 04:26:23,018 - direct buffer constructor: available
+2020-04-18 04:26:23,019 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:26:23,019 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:26:23,020 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:26:23,020 - sun.misc.Unsafe: available
+2020-04-18 04:26:23,020 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:26:23,020 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:26:23,022 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:26:23,022 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:26:23,022 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:26:23,023 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:26:23,052 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:26:23,052 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:26:23,064 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:26:23,188 - -Dio.netty.processId: 10288 (auto-detected)
+2020-04-18 04:26:23,190 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:26:23,190 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:26:23,539 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:26:23,540 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:26:23,931 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:26:24,344 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:26:24,344 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:26:24,362 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:26:24,363 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:26:24,407 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:26:24,408 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:26:24,408 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:26:24,421 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:26:24,422 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:26:24,422 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:26:24,434 - Unknown channel option 'SO_SNDBUF' for channel '[id: 0x4a008d6b]'
+2020-04-18 04:26:35,445 - Using Log4J as the default logging framework
+2020-04-18 04:26:35,452 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:26:35,496 - Platform: Windows
+2020-04-18 04:26:35,498 - -Dio.netty.noUnsafe: false
+2020-04-18 04:26:35,499 - Java version: 8
+2020-04-18 04:26:35,501 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:26:35,502 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:26:35,503 - java.nio.Buffer.address: available
+2020-04-18 04:26:35,504 - direct buffer constructor: available
+2020-04-18 04:26:35,505 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:26:35,505 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:26:35,505 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:26:35,505 - sun.misc.Unsafe: available
+2020-04-18 04:26:35,506 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:26:35,506 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:26:35,509 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:26:35,509 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:26:35,509 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:26:35,510 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:26:35,542 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:26:35,542 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:26:35,558 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:26:35,666 - -Dio.netty.processId: 2288 (auto-detected)
+2020-04-18 04:26:35,669 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:26:35,669 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:26:36,085 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:26:36,086 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:26:36,482 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:26:36,892 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:26:36,892 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:26:36,907 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:26:36,908 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:26:36,946 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:26:36,947 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:26:36,958 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:26:36,958 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:26:36,958 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:26:37,000 - [id: 0x2d8a2ae0] REGISTERED
+2020-04-18 04:26:37,001 - [id: 0x2d8a2ae0] CONNECT: /127.0.0.1:8777
+2020-04-18 04:26:37,007 - [id: 0x2d8a2ae0, L:/127.0.0.1:40304 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:26:37,341 - [id: 0x29a7d17a, L:/127.0.0.1:8777 - R:/127.0.0.1:40304] REGISTERED
+2020-04-18 04:26:37,341 - [id: 0x29a7d17a, L:/127.0.0.1:8777 - R:/127.0.0.1:40304] ACTIVE
+2020-04-18 04:26:37,793 - [id: 0x2d8a2ae0, L:/127.0.0.1:40304 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=401, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 73, 120, 77, 106, 77, 48, 78, 84, 89, 51, 79, 68, 107, 119, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 106, 89, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 73, 48, 78, 71, 70, 108, 78, 106, 65, 49, 77, 83, 48, 53, 90, 106, 107, 50, 76, 84, 81, 49, 78, 122, 89, 116, 79, 68, 89, 51, 78, 121, 49, 104, 89, 84, 85, 49, 78, 122, 85, 48, 79, 84, 74, 108, 77, 106, 107, 105, 102, 83, 119, 105, 53, 112, 87, 119, 53, 111, 50, 117, 77, 106, 73, 121, 77, 106, 73, 121, 77, 105, 73, 54, 101, 121, 74, 107, 90, 88, 90, 106, 98, 50, 82, 108, 73, 106, 111, 105, 77, 84, 73, 122, 78, 68, 85, 50, 78, 122, 103, 53, 77, 67, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 73, 50, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 78, 68, 82, 104, 90, 84, 89, 119, 78, 84, 69, 116, 79, 87, 89, 53, 78, 105, 48, 48, 78, 84, 99, 50, 76, 84, 103, 50, 78, 122, 99, 116, 89, 87, 69, 49, 78, 84, 99, 49, 78, 68, 107, 121, 90, 84, 73, 53, 73, 110, 49, 57, 34, 125], tail=0}
+2020-04-18 04:26:37,793 - [id: 0x2d8a2ae0, L:/127.0.0.1:40304 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:27:40,823 - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2020-04-18 04:27:40,823 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-04-18 04:27:40,823 - -Dio.netty.recycler.linkCapacity: 16
+2020-04-18 04:27:40,823 - -Dio.netty.recycler.ratio: 8
+2020-04-18 04:27:40,841 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2020-04-18 04:27:40,843 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6b66650
+2020-04-18 04:27:40,848 - [id: 0x2d8a2ae0, L:/127.0.0.1:40304 - R:/127.0.0.1:8777] READ COMPLETE
+2020-04-18 04:27:40,849 - [id: 0x2d8a2ae0, L:/127.0.0.1:40304 - R:/127.0.0.1:8777] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:27:40,852 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:27:40,854 - [id: 0x2d8a2ae0, L:/127.0.0.1:40304 ! R:/127.0.0.1:8777] INACTIVE
+2020-04-18 04:27:40,854 - [id: 0x2d8a2ae0, L:/127.0.0.1:40304 ! R:/127.0.0.1:8777] UNREGISTERED
+2020-04-18 04:27:41,812 - Using Log4J as the default logging framework
+2020-04-18 04:27:41,819 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:27:41,871 - Platform: Windows
+2020-04-18 04:27:41,874 - -Dio.netty.noUnsafe: false
+2020-04-18 04:27:41,875 - Java version: 8
+2020-04-18 04:27:41,878 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:27:41,879 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:27:41,880 - java.nio.Buffer.address: available
+2020-04-18 04:27:41,881 - direct buffer constructor: available
+2020-04-18 04:27:41,882 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:27:41,882 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:27:41,882 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:27:41,882 - sun.misc.Unsafe: available
+2020-04-18 04:27:41,883 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:27:41,883 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:27:41,884 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:27:41,884 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:27:41,885 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:27:41,885 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:27:41,922 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:27:41,922 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:27:41,942 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:27:42,070 - -Dio.netty.processId: 3980 (auto-detected)
+2020-04-18 04:27:42,073 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:27:42,073 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:27:42,454 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:27:42,455 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:27:42,871 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:27:43,069 - Freed 1 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2020-04-18 04:27:43,291 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:27:43,291 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:27:43,311 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:27:43,312 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:27:43,345 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:27:43,346 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:27:43,357 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:27:43,357 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:27:43,358 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:27:43,370 - Unknown channel option 'SO_SNDBUF' for channel '[id: 0x3d350e20]'
+2020-04-18 04:28:05,027 - Using Log4J as the default logging framework
+2020-04-18 04:28:05,034 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:28:05,082 - Platform: Windows
+2020-04-18 04:28:05,084 - -Dio.netty.noUnsafe: false
+2020-04-18 04:28:05,085 - Java version: 8
+2020-04-18 04:28:05,088 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:28:05,089 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:28:05,090 - java.nio.Buffer.address: available
+2020-04-18 04:28:05,091 - direct buffer constructor: available
+2020-04-18 04:28:05,092 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:28:05,092 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:28:05,092 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:28:05,093 - sun.misc.Unsafe: available
+2020-04-18 04:28:05,093 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:28:05,093 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:28:05,095 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:28:05,096 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:28:05,096 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:28:05,097 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:28:05,130 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:28:05,130 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:28:05,146 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:28:05,251 - -Dio.netty.processId: 16924 (auto-detected)
+2020-04-18 04:28:05,256 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:28:05,256 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:28:05,666 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:28:05,667 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:28:06,089 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:28:06,516 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:28:06,517 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:28:06,530 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:28:06,531 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:28:06,574 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:28:06,575 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:28:06,575 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:28:06,575 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:28:06,575 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:28:06,575 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:28:06,575 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:28:06,576 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:28:06,576 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:28:06,576 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:28:06,576 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:28:06,592 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:28:06,592 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:28:06,592 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:28:06,630 - [id: 0xdc6e9623] REGISTERED
+2020-04-18 04:28:06,630 - [id: 0xdc6e9623] CONNECT: /127.0.0.1:8777
+2020-04-18 04:28:06,636 - [id: 0xdc6e9623, L:/127.0.0.1:40470 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:28:06,923 - [id: 0x82bf6860, L:/127.0.0.1:8777 - R:/127.0.0.1:40470] REGISTERED
+2020-04-18 04:28:06,923 - [id: 0x82bf6860, L:/127.0.0.1:8777 - R:/127.0.0.1:40470] ACTIVE
+2020-04-18 04:28:07,345 - [id: 0xdc6e9623, L:/127.0.0.1:40470 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=401, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 73, 120, 77, 106, 77, 48, 78, 84, 89, 51, 79, 68, 107, 119, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 106, 103, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 74, 107, 78, 84, 77, 120, 77, 106, 104, 107, 77, 121, 48, 121, 78, 50, 85, 121, 76, 84, 82, 107, 90, 84, 73, 116, 89, 84, 74, 105, 77, 121, 49, 108, 77, 50, 86, 108, 77, 87, 81, 122, 89, 84, 99, 51, 89, 84, 65, 105, 102, 83, 119, 105, 53, 112, 87, 119, 53, 111, 50, 117, 77, 106, 73, 121, 77, 106, 73, 121, 77, 105, 73, 54, 101, 121, 74, 107, 90, 88, 90, 106, 98, 50, 82, 108, 73, 106, 111, 105, 77, 84, 73, 122, 78, 68, 85, 50, 78, 122, 103, 53, 77, 67, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 73, 52, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 90, 68, 85, 122, 77, 84, 73, 52, 90, 68, 77, 116, 77, 106, 100, 108, 77, 105, 48, 48, 90, 71, 85, 121, 76, 87, 69, 121, 89, 106, 77, 116, 90, 84, 78, 108, 90, 84, 70, 107, 77, 50, 69, 51, 78, 50, 69, 119, 73, 110, 49, 57, 34, 125], tail=0}
+2020-04-18 04:28:07,346 - [id: 0xdc6e9623, L:/127.0.0.1:40470 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:29:36,423 - Using Log4J as the default logging framework
+2020-04-18 04:29:36,430 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:29:36,489 - Platform: Windows
+2020-04-18 04:29:36,492 - -Dio.netty.noUnsafe: false
+2020-04-18 04:29:36,493 - Java version: 8
+2020-04-18 04:29:36,497 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:29:36,499 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:29:36,500 - java.nio.Buffer.address: available
+2020-04-18 04:29:36,501 - direct buffer constructor: available
+2020-04-18 04:29:36,502 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:29:36,502 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:29:36,503 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:29:36,503 - sun.misc.Unsafe: available
+2020-04-18 04:29:36,503 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:29:36,504 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:29:36,507 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:29:36,507 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:29:36,507 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:29:36,509 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:29:36,543 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:29:36,543 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:29:36,564 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:29:36,676 - -Dio.netty.processId: 11232 (auto-detected)
+2020-04-18 04:29:36,679 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:29:36,679 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:29:37,064 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:29:37,064 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:29:37,481 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:29:37,887 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:29:37,887 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:29:37,906 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:29:37,906 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:29:37,965 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:29:37,965 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:29:37,965 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:29:37,965 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:29:37,966 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:29:37,966 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:29:37,966 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:29:37,966 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:29:37,966 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:29:37,966 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:29:37,966 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:29:37,982 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:29:37,982 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:29:37,982 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:29:38,023 - [id: 0x931915c9] REGISTERED
+2020-04-18 04:29:38,024 - [id: 0x931915c9] CONNECT: /127.0.0.1:8777
+2020-04-18 04:29:38,027 - [id: 0x3edf66fd, L:/127.0.0.1:8777 - R:/127.0.0.1:40586] REGISTERED
+2020-04-18 04:29:38,027 - [id: 0x3edf66fd, L:/127.0.0.1:8777 - R:/127.0.0.1:40586] ACTIVE
+2020-04-18 04:29:38,031 - [id: 0x931915c9, L:/127.0.0.1:40586 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:29:38,725 - [id: 0x931915c9, L:/127.0.0.1:40586 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=401, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 73, 120, 77, 106, 77, 48, 78, 84, 89, 51, 79, 68, 107, 119, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 106, 107, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 74, 108, 77, 122, 108, 109, 89, 109, 74, 108, 78, 83, 49, 108, 78, 84, 103, 119, 76, 84, 81, 119, 90, 106, 77, 116, 89, 106, 73, 120, 90, 105, 48, 53, 89, 87, 69, 50, 78, 122, 90, 106, 89, 50, 73, 53, 77, 87, 69, 105, 102, 83, 119, 105, 53, 112, 87, 119, 53, 111, 50, 117, 77, 106, 73, 121, 77, 106, 73, 121, 77, 105, 73, 54, 101, 121, 74, 107, 90, 88, 90, 106, 98, 50, 82, 108, 73, 106, 111, 105, 77, 84, 73, 122, 78, 68, 85, 50, 78, 122, 103, 53, 77, 67, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 73, 53, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 90, 84, 77, 53, 90, 109, 74, 105, 90, 84, 85, 116, 90, 84, 85, 52, 77, 67, 48, 48, 77, 71, 89, 122, 76, 87, 73, 121, 77, 87, 89, 116, 79, 87, 70, 104, 78, 106, 99, 50, 89, 50, 78, 105, 79, 84, 70, 104, 73, 110, 49, 57, 34, 125], tail=0}
+2020-04-18 04:29:38,726 - [id: 0x931915c9, L:/127.0.0.1:40586 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:30:03,774 - Using Log4J as the default logging framework
+2020-04-18 04:30:03,781 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:30:03,839 - Platform: Windows
+2020-04-18 04:30:03,842 - -Dio.netty.noUnsafe: false
+2020-04-18 04:30:03,842 - Java version: 8
+2020-04-18 04:30:03,846 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:30:03,847 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:30:03,848 - java.nio.Buffer.address: available
+2020-04-18 04:30:03,849 - direct buffer constructor: available
+2020-04-18 04:30:03,850 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:30:03,851 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:30:03,851 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:30:03,851 - sun.misc.Unsafe: available
+2020-04-18 04:30:03,852 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:30:03,852 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:30:03,854 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:30:03,855 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:30:03,855 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:30:03,856 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:30:03,897 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:30:03,897 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:30:03,915 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:30:04,029 - -Dio.netty.processId: 10132 (auto-detected)
+2020-04-18 04:30:04,032 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:30:04,032 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:30:04,423 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:30:04,424 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:30:04,837 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:30:05,262 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:30:05,263 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:30:05,275 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:30:05,276 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:30:05,319 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:30:05,320 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:30:05,334 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:30:05,334 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:30:05,334 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:30:05,348 - Unknown channel option 'SO_SNDBUF' for channel '[id: 0x6af53c26]'
+2020-04-18 04:30:20,605 - Using Log4J as the default logging framework
+2020-04-18 04:30:20,611 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:30:20,662 - Platform: Windows
+2020-04-18 04:30:20,665 - -Dio.netty.noUnsafe: false
+2020-04-18 04:30:20,666 - Java version: 8
+2020-04-18 04:30:20,669 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:30:20,670 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:30:20,671 - java.nio.Buffer.address: available
+2020-04-18 04:30:20,672 - direct buffer constructor: available
+2020-04-18 04:30:20,673 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:30:20,673 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:30:20,673 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:30:20,673 - sun.misc.Unsafe: available
+2020-04-18 04:30:20,674 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:30:20,674 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:30:20,676 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:30:20,676 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:30:20,676 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:30:20,677 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:30:20,709 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:30:20,709 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:30:20,722 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:30:20,816 - -Dio.netty.processId: 10764 (auto-detected)
+2020-04-18 04:30:20,820 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:30:20,820 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:30:21,217 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:30:21,218 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:30:21,624 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:30:22,033 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:30:22,033 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:30:22,053 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:30:22,054 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:30:22,104 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:30:22,105 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:30:22,105 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:30:22,122 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:30:22,122 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:30:22,123 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:30:22,163 - [id: 0x64676585] REGISTERED
+2020-04-18 04:30:22,164 - [id: 0x64676585] CONNECT: /127.0.0.1:8777
+2020-04-18 04:30:22,169 - [id: 0x64676585, L:/127.0.0.1:40700 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:30:22,453 - [id: 0xc29457e5, L:/127.0.0.1:8777 - R:/127.0.0.1:40700] REGISTERED
+2020-04-18 04:30:22,453 - [id: 0xc29457e5, L:/127.0.0.1:8777 - R:/127.0.0.1:40700] ACTIVE
+2020-04-18 04:30:22,879 - [id: 0x64676585, L:/127.0.0.1:40700 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=401, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 73, 120, 77, 106, 77, 48, 78, 84, 89, 51, 79, 68, 107, 119, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 122, 65, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 73, 50, 89, 84, 100, 105, 90, 84, 107, 50, 78, 105, 49, 104, 78, 50, 78, 107, 76, 84, 81, 48, 78, 106, 99, 116, 79, 87, 85, 119, 90, 67, 48, 52, 77, 84, 89, 49, 78, 68, 78, 107, 90, 68, 100, 108, 78, 68, 85, 105, 102, 83, 119, 105, 53, 112, 87, 119, 53, 111, 50, 117, 77, 106, 73, 121, 77, 106, 73, 121, 77, 105, 73, 54, 101, 121, 74, 107, 90, 88, 90, 106, 98, 50, 82, 108, 73, 106, 111, 105, 77, 84, 73, 122, 78, 68, 85, 50, 78, 122, 103, 53, 77, 67, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 77, 119, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 78, 109, 69, 51, 89, 109, 85, 53, 78, 106, 89, 116, 89, 84, 100, 106, 90, 67, 48, 48, 78, 68, 89, 51, 76, 84, 108, 108, 77, 71, 81, 116, 79, 68, 69, 50, 78, 84, 81, 122, 90, 71, 81, 51, 90, 84, 81, 49, 73, 110, 49, 57, 34, 125], tail=0}
+2020-04-18 04:30:22,880 - [id: 0x64676585, L:/127.0.0.1:40700 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:31:26,830 - Using Log4J as the default logging framework
+2020-04-18 04:31:26,838 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:31:26,888 - Platform: Windows
+2020-04-18 04:31:26,891 - -Dio.netty.noUnsafe: false
+2020-04-18 04:31:26,891 - Java version: 8
+2020-04-18 04:31:26,894 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:31:26,895 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:31:26,896 - java.nio.Buffer.address: available
+2020-04-18 04:31:26,897 - direct buffer constructor: available
+2020-04-18 04:31:26,898 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:31:26,898 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:31:26,898 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:31:26,899 - sun.misc.Unsafe: available
+2020-04-18 04:31:26,899 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:31:26,900 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:31:26,902 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:31:26,902 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:31:26,902 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:31:26,903 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:31:26,934 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:31:26,934 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:31:26,952 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:31:27,059 - -Dio.netty.processId: 15060 (auto-detected)
+2020-04-18 04:31:27,062 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:31:27,062 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:31:27,479 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:31:27,480 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:31:27,896 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:31:28,320 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:31:28,320 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:31:28,338 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:31:28,338 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:31:28,382 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:31:28,382 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:31:28,382 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:31:28,382 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:31:28,382 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:31:28,382 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:31:28,382 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:31:28,383 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:31:28,383 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:31:28,383 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:31:28,383 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:31:28,398 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:31:28,398 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:31:28,399 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:31:28,436 - [id: 0x80860c90] REGISTERED
+2020-04-18 04:31:28,437 - [id: 0x80860c90] CONNECT: /127.0.0.1:8777
+2020-04-18 04:31:28,439 - [id: 0x4e3e9ce6, L:/127.0.0.1:8777 - R:/127.0.0.1:40762] REGISTERED
+2020-04-18 04:31:28,440 - [id: 0x4e3e9ce6, L:/127.0.0.1:8777 - R:/127.0.0.1:40762] ACTIVE
+2020-04-18 04:31:28,442 - [id: 0x80860c90, L:/127.0.0.1:40762 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:31:29,130 - [id: 0x80860c90, L:/127.0.0.1:40762 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=381, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 74, 54, 90, 121, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 77, 120, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 78, 109, 89, 52, 79, 84, 85, 53, 78, 68, 89, 116, 77, 68, 69, 52, 79, 67, 48, 48, 79, 68, 69, 122, 76, 84, 104, 109, 90, 106, 65, 116, 77, 50, 69, 122, 77, 71, 69, 53, 78, 87, 77, 48, 78, 87, 69, 48, 73, 110, 48, 115, 73, 117, 97, 86, 115, 79, 97, 78, 114, 106, 73, 121, 77, 106, 73, 121, 77, 106, 73, 105, 79, 110, 115, 105, 90, 71, 86, 50, 89, 50, 57, 107, 90, 83, 73, 54, 73, 110, 112, 110, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 122, 69, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 73, 50, 90, 106, 103, 53, 78, 84, 107, 48, 78, 105, 48, 119, 77, 84, 103, 52, 76, 84, 81, 52, 77, 84, 77, 116, 79, 71, 90, 109, 77, 67, 48, 122, 89, 84, 77, 119, 89, 84, 107, 49, 89, 122, 81, 49, 89, 84, 81, 105, 102, 88, 48, 61, 34, 125], tail=0}
+2020-04-18 04:31:29,130 - [id: 0x80860c90, L:/127.0.0.1:40762 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:31:36,930 - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2020-04-18 04:31:36,931 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-04-18 04:31:36,931 - -Dio.netty.recycler.linkCapacity: 16
+2020-04-18 04:31:36,931 - -Dio.netty.recycler.ratio: 8
+2020-04-18 04:31:36,952 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2020-04-18 04:31:36,954 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@44cfbab6
+2020-04-18 04:31:36,961 - [id: 0x4e3e9ce6, L:/127.0.0.1:8777 - R:/127.0.0.1:40762] READ COMPLETE
+2020-04-18 04:31:36,962 - [id: 0x4e3e9ce6, L:/127.0.0.1:8777 - R:/127.0.0.1:40762] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:31:36,966 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:31:36,968 - [id: 0x4e3e9ce6, L:/127.0.0.1:8777 ! R:/127.0.0.1:40762] INACTIVE
+2020-04-18 04:31:36,993 - [id: 0x4e3e9ce6, L:/127.0.0.1:8777 ! R:/127.0.0.1:40762] UNREGISTERED
+2020-04-18 04:31:40,044 - [id: 0xc29457e5, L:/127.0.0.1:8777 - R:/127.0.0.1:40700] READ COMPLETE
+2020-04-18 04:31:40,044 - [id: 0xc29457e5, L:/127.0.0.1:8777 - R:/127.0.0.1:40700] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:31:40,045 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:31:40,046 - [id: 0xc29457e5, L:/127.0.0.1:8777 ! R:/127.0.0.1:40700] INACTIVE
+2020-04-18 04:31:40,047 - [id: 0xc29457e5, L:/127.0.0.1:8777 ! R:/127.0.0.1:40700] UNREGISTERED
+2020-04-18 04:31:45,518 - Using Log4J as the default logging framework
+2020-04-18 04:31:45,525 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:31:45,575 - Platform: Windows
+2020-04-18 04:31:45,577 - -Dio.netty.noUnsafe: false
+2020-04-18 04:31:45,578 - Java version: 8
+2020-04-18 04:31:45,581 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:31:45,583 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:31:45,583 - java.nio.Buffer.address: available
+2020-04-18 04:31:45,585 - direct buffer constructor: available
+2020-04-18 04:31:45,586 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:31:45,586 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:31:45,587 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:31:45,588 - sun.misc.Unsafe: available
+2020-04-18 04:31:45,588 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:31:45,588 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:31:45,590 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:31:45,590 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:31:45,590 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:31:45,591 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:31:45,630 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:31:45,630 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:31:45,648 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:31:45,755 - -Dio.netty.processId: 9844 (auto-detected)
+2020-04-18 04:31:45,758 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:31:45,758 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:31:46,146 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:31:46,147 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:31:46,553 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:31:46,979 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:31:46,980 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:31:46,999 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:31:46,999 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:31:47,047 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:31:47,048 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:31:47,049 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:31:47,066 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:31:47,067 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:31:47,067 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:31:47,108 - [id: 0xd4b3e6dc] REGISTERED
+2020-04-18 04:31:47,108 - [id: 0xd4b3e6dc] CONNECT: /127.0.0.1:8777
+2020-04-18 04:31:47,111 - [id: 0x8ef8ebd1, L:/127.0.0.1:8777 - R:/127.0.0.1:40809] REGISTERED
+2020-04-18 04:31:47,111 - [id: 0x8ef8ebd1, L:/127.0.0.1:8777 - R:/127.0.0.1:40809] ACTIVE
+2020-04-18 04:31:47,113 - [id: 0xd4b3e6dc, L:/127.0.0.1:40809 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:31:47,834 - [id: 0xd4b3e6dc, L:/127.0.0.1:40809 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=381, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 74, 54, 90, 121, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 77, 120, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 89, 106, 77, 122, 79, 68, 86, 108, 90, 84, 65, 116, 90, 84, 89, 120, 79, 83, 48, 48, 77, 84, 73, 119, 76, 84, 107, 49, 89, 87, 89, 116, 78, 71, 69, 121, 79, 68, 108, 106, 78, 71, 86, 105, 77, 109, 77, 52, 73, 110, 48, 115, 73, 117, 97, 86, 115, 79, 97, 78, 114, 106, 73, 121, 77, 106, 73, 121, 77, 106, 73, 105, 79, 110, 115, 105, 90, 71, 86, 50, 89, 50, 57, 107, 90, 83, 73, 54, 73, 110, 112, 110, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 122, 69, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 74, 105, 77, 122, 77, 52, 78, 87, 86, 108, 77, 67, 49, 108, 78, 106, 69, 53, 76, 84, 81, 120, 77, 106, 65, 116, 79, 84, 86, 104, 90, 105, 48, 48, 89, 84, 73, 52, 79, 87, 77, 48, 90, 87, 73, 121, 89, 122, 103, 105, 102, 88, 48, 61, 34, 125], tail=0}
+2020-04-18 04:31:47,834 - [id: 0xd4b3e6dc, L:/127.0.0.1:40809 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:32:04,539 - Using Log4J as the default logging framework
+2020-04-18 04:32:04,545 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:32:04,604 - Platform: Windows
+2020-04-18 04:32:04,608 - -Dio.netty.noUnsafe: false
+2020-04-18 04:32:04,608 - Java version: 8
+2020-04-18 04:32:04,611 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:32:04,612 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:32:04,614 - java.nio.Buffer.address: available
+2020-04-18 04:32:04,615 - direct buffer constructor: available
+2020-04-18 04:32:04,617 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:32:04,617 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:32:04,617 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:32:04,617 - sun.misc.Unsafe: available
+2020-04-18 04:32:04,617 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:32:04,618 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:32:04,620 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:32:04,620 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:32:04,620 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:32:04,621 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:32:04,655 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:32:04,655 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:32:04,673 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:32:04,787 - -Dio.netty.processId: 9236 (auto-detected)
+2020-04-18 04:32:04,790 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:32:04,790 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:32:05,208 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:32:05,209 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:32:05,619 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:32:06,046 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:32:06,047 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:32:06,064 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:32:06,064 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:32:06,109 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:32:06,110 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:32:06,111 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:32:06,124 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:32:06,124 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:32:06,124 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:32:06,163 - [id: 0x2c285714] REGISTERED
+2020-04-18 04:32:06,163 - [id: 0x2c285714] CONNECT: /127.0.0.1:8777
+2020-04-18 04:32:06,165 - [id: 0x5bb9371e, L:/127.0.0.1:8777 - R:/127.0.0.1:40862] REGISTERED
+2020-04-18 04:32:06,166 - [id: 0x5bb9371e, L:/127.0.0.1:8777 - R:/127.0.0.1:40862] ACTIVE
+2020-04-18 04:32:06,168 - [id: 0x2c285714, L:/127.0.0.1:40862 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:32:06,890 - [id: 0x2c285714, L:/127.0.0.1:40862 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=381, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 74, 54, 90, 121, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 77, 121, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 78, 122, 73, 120, 77, 109, 77, 50, 79, 84, 81, 116, 89, 106, 90, 109, 79, 67, 48, 48, 77, 106, 100, 105, 76, 84, 108, 105, 89, 84, 69, 116, 77, 106, 69, 119, 77, 106, 89, 51, 90, 84, 90, 106, 77, 71, 77, 121, 73, 110, 48, 115, 73, 117, 97, 86, 115, 79, 97, 78, 114, 106, 73, 121, 77, 106, 73, 121, 77, 106, 73, 105, 79, 110, 115, 105, 90, 71, 86, 50, 89, 50, 57, 107, 90, 83, 73, 54, 73, 110, 112, 110, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 122, 73, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 73, 51, 77, 106, 69, 121, 89, 122, 89, 53, 78, 67, 49, 105, 78, 109, 89, 52, 76, 84, 81, 121, 78, 50, 73, 116, 79, 87, 74, 104, 77, 83, 48, 121, 77, 84, 65, 121, 78, 106, 100, 108, 78, 109, 77, 119, 89, 122, 73, 105, 102, 88, 48, 61, 34, 125], tail=0}
+2020-04-18 04:32:06,890 - [id: 0x2c285714, L:/127.0.0.1:40862 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:32:34,198 - Using Log4J as the default logging framework
+2020-04-18 04:32:34,206 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:32:34,267 - Platform: Windows
+2020-04-18 04:32:34,270 - -Dio.netty.noUnsafe: false
+2020-04-18 04:32:34,271 - Java version: 8
+2020-04-18 04:32:34,274 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:32:34,276 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:32:34,277 - java.nio.Buffer.address: available
+2020-04-18 04:32:34,278 - direct buffer constructor: available
+2020-04-18 04:32:34,279 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:32:34,279 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:32:34,279 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:32:34,279 - sun.misc.Unsafe: available
+2020-04-18 04:32:34,280 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:32:34,280 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:32:34,282 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:32:34,283 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:32:34,283 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:32:34,284 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:32:34,318 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:32:34,318 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:32:34,337 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:32:34,450 - -Dio.netty.processId: 16924 (auto-detected)
+2020-04-18 04:32:34,454 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:32:34,454 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:32:34,869 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:32:34,869 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:32:35,302 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:32:35,743 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:32:35,743 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:32:35,756 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:32:35,756 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:32:35,794 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:32:35,794 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:32:35,794 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:32:35,794 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:32:35,795 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:32:35,795 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:32:35,795 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:32:35,795 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:32:35,795 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:32:35,795 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:32:35,795 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:32:35,808 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:32:35,808 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:32:35,808 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:32:35,845 - [id: 0x222f4611] REGISTERED
+2020-04-18 04:32:35,846 - [id: 0x222f4611] CONNECT: /127.0.0.1:8777
+2020-04-18 04:32:35,848 - [id: 0x93396892, L:/127.0.0.1:8777 - R:/127.0.0.1:40910] REGISTERED
+2020-04-18 04:32:35,849 - [id: 0x93396892, L:/127.0.0.1:8777 - R:/127.0.0.1:40910] ACTIVE
+2020-04-18 04:32:35,851 - [id: 0x222f4611, L:/127.0.0.1:40910 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:32:36,570 - [id: 0x222f4611, L:/127.0.0.1:40910 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=381, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 74, 54, 90, 121, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 77, 121, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 89, 106, 89, 48, 79, 87, 81, 121, 77, 50, 89, 116, 90, 84, 73, 119, 77, 105, 48, 48, 78, 122, 103, 50, 76, 84, 108, 107, 77, 106, 99, 116, 77, 109, 82, 104, 89, 122, 77, 48, 78, 71, 81, 120, 78, 87, 90, 109, 73, 110, 48, 115, 73, 117, 97, 86, 115, 79, 97, 78, 114, 106, 73, 121, 77, 106, 73, 121, 77, 106, 73, 105, 79, 110, 115, 105, 90, 71, 86, 50, 89, 50, 57, 107, 90, 83, 73, 54, 73, 110, 112, 110, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 122, 73, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 74, 105, 78, 106, 81, 53, 90, 68, 73, 122, 90, 105, 49, 108, 77, 106, 65, 121, 76, 84, 81, 51, 79, 68, 89, 116, 79, 87, 81, 121, 78, 121, 48, 121, 90, 71, 70, 106, 77, 122, 81, 48, 90, 68, 69, 49, 90, 109, 89, 105, 102, 88, 48, 61, 34, 125], tail=0}
+2020-04-18 04:32:36,570 - [id: 0x222f4611, L:/127.0.0.1:40910 - R:/127.0.0.1:8777] FLUSH
+2020-04-18 04:32:43,505 - [id: 0x93396892, L:/127.0.0.1:8777 - R:/127.0.0.1:40910] READ COMPLETE
+2020-04-18 04:32:43,505 - [id: 0x93396892, L:/127.0.0.1:8777 - R:/127.0.0.1:40910] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:32:43,506 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:32:43,508 - [id: 0x93396892, L:/127.0.0.1:8777 ! R:/127.0.0.1:40910] INACTIVE
+2020-04-18 04:32:43,508 - [id: 0x93396892, L:/127.0.0.1:8777 ! R:/127.0.0.1:40910] UNREGISTERED
+2020-04-18 04:32:46,219 - [id: 0x5bb9371e, L:/127.0.0.1:8777 - R:/127.0.0.1:40862] READ COMPLETE
+2020-04-18 04:32:46,219 - [id: 0x5bb9371e, L:/127.0.0.1:8777 - R:/127.0.0.1:40862] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:32:46,220 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:32:46,220 - [id: 0x5bb9371e, L:/127.0.0.1:8777 ! R:/127.0.0.1:40862] INACTIVE
+2020-04-18 04:32:46,220 - [id: 0x5bb9371e, L:/127.0.0.1:8777 ! R:/127.0.0.1:40862] UNREGISTERED
+2020-04-18 04:32:48,726 - [id: 0x8ef8ebd1, L:/127.0.0.1:8777 - R:/127.0.0.1:40809] READ COMPLETE
+2020-04-18 04:32:48,727 - [id: 0x8ef8ebd1, L:/127.0.0.1:8777 - R:/127.0.0.1:40809] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:32:48,727 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:373)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-18 04:32:48,728 - [id: 0x8ef8ebd1, L:/127.0.0.1:8777 ! R:/127.0.0.1:40809] INACTIVE
+2020-04-18 04:32:48,728 - [id: 0x8ef8ebd1, L:/127.0.0.1:8777 ! R:/127.0.0.1:40809] UNREGISTERED
+2020-04-18 04:33:12,838 - Using Log4J as the default logging framework
+2020-04-18 04:33:12,847 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:33:12,904 - Platform: Windows
+2020-04-18 04:33:12,906 - -Dio.netty.noUnsafe: false
+2020-04-18 04:33:12,907 - Java version: 8
+2020-04-18 04:33:12,910 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:33:12,911 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:33:12,911 - java.nio.Buffer.address: available
+2020-04-18 04:33:12,912 - direct buffer constructor: available
+2020-04-18 04:33:12,913 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:33:12,914 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:33:12,914 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:33:12,914 - sun.misc.Unsafe: available
+2020-04-18 04:33:12,915 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:33:12,915 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:33:12,917 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:33:12,917 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:33:12,917 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:33:12,918 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:33:12,952 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:33:12,953 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:33:12,969 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:33:13,080 - -Dio.netty.processId: 16272 (auto-detected)
+2020-04-18 04:33:13,083 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:33:13,083 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:33:13,469 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:33:13,469 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:33:13,879 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:33:14,303 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:33:14,303 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:33:14,319 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:33:14,319 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:33:14,354 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:33:14,365 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:33:14,366 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:33:14,366 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:33:14,378 - Unknown channel option 'SO_SNDBUF' for channel '[id: 0x18bd9932]'
+2020-04-18 04:33:25,381 - Using Log4J as the default logging framework
+2020-04-18 04:33:25,389 - -Dio.netty.eventLoopThreads: 16
+2020-04-18 04:33:25,442 - Platform: Windows
+2020-04-18 04:33:25,445 - -Dio.netty.noUnsafe: false
+2020-04-18 04:33:25,445 - Java version: 8
+2020-04-18 04:33:25,447 - sun.misc.Unsafe.theUnsafe: available
+2020-04-18 04:33:25,448 - sun.misc.Unsafe.copyMemory: available
+2020-04-18 04:33:25,449 - java.nio.Buffer.address: available
+2020-04-18 04:33:25,450 - direct buffer constructor: available
+2020-04-18 04:33:25,451 - java.nio.Bits.unaligned: available, true
+2020-04-18 04:33:25,451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-04-18 04:33:25,451 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-04-18 04:33:25,451 - sun.misc.Unsafe: available
+2020-04-18 04:33:25,452 - -Dio.netty.tmpdir: C:\Users\jonas.ao\AppData\Local\Temp (java.io.tmpdir)
+2020-04-18 04:33:25,452 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-04-18 04:33:25,454 - -Dio.netty.noPreferDirect: false
+2020-04-18 04:33:25,454 - -Dio.netty.maxDirectMemory: 1655701504 bytes
+2020-04-18 04:33:25,455 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-04-18 04:33:25,456 - java.nio.ByteBuffer.cleaner(): available
+2020-04-18 04:33:25,485 - -Dio.netty.noKeySetOptimization: false
+2020-04-18 04:33:25,485 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-04-18 04:33:25,498 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-04-18 04:33:25,585 - -Dio.netty.processId: 11776 (auto-detected)
+2020-04-18 04:33:25,588 - -Djava.net.preferIPv4Stack: false
+2020-04-18 04:33:25,588 - -Djava.net.preferIPv6Addresses: false
+2020-04-18 04:33:25,971 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-04-18 04:33:25,973 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-04-18 04:33:26,380 - -Dio.netty.machineId: 10:62:e5:ff:fe:52:3b:11 (auto-detected)
+2020-04-18 04:33:26,799 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-04-18 04:33:26,799 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-04-18 04:33:26,815 - -Dio.netty.leakDetection.level: simple
+2020-04-18 04:33:26,815 - -Dio.netty.leakDetection.maxRecords: 4
+2020-04-18 04:33:26,860 - -Dio.netty.allocator.numHeapArenas: 16
+2020-04-18 04:33:26,860 - -Dio.netty.allocator.numDirectArenas: 16
+2020-04-18 04:33:26,860 - -Dio.netty.allocator.pageSize: 8192
+2020-04-18 04:33:26,860 - -Dio.netty.allocator.maxOrder: 11
+2020-04-18 04:33:26,860 - -Dio.netty.allocator.chunkSize: 16777216
+2020-04-18 04:33:26,861 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-04-18 04:33:26,861 - -Dio.netty.allocator.smallCacheSize: 256
+2020-04-18 04:33:26,861 - -Dio.netty.allocator.normalCacheSize: 64
+2020-04-18 04:33:26,861 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-04-18 04:33:26,861 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-04-18 04:33:26,861 - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-04-18 04:33:26,883 - -Dio.netty.allocator.type: pooled
+2020-04-18 04:33:26,883 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-04-18 04:33:26,883 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-04-18 04:33:26,922 - [id: 0xd88401c3] REGISTERED
+2020-04-18 04:33:26,922 - [id: 0xd88401c3] CONNECT: /127.0.0.1:8777
+2020-04-18 04:33:26,927 - [id: 0xd88401c3, L:/127.0.0.1:41024 - R:/127.0.0.1:8777] ACTIVE
+2020-04-18 04:33:27,256 - [id: 0x690f5716, L:/127.0.0.1:8777 - R:/127.0.0.1:41024] REGISTERED
+2020-04-18 04:33:27,256 - [id: 0x690f5716, L:/127.0.0.1:8777 - R:/127.0.0.1:41024] ACTIVE
+2020-04-18 04:33:27,696 - [id: 0xd88401c3, L:/127.0.0.1:41024 - R:/127.0.0.1:8777] WRITE: MsgProtocol{header=0, flag=83, cmd=0, len=381, data=[123, 34, 99, 108, 97, 115, 115, 78, 97, 109, 101, 34, 58, 34, 99, 111, 109, 46, 97, 111, 100, 105, 110, 103, 107, 117, 110, 46, 112, 111, 106, 111, 46, 68, 101, 118, 105, 99, 101, 34, 44, 34, 111, 98, 106, 101, 99, 116, 34, 58, 34, 101, 121, 76, 109, 108, 98, 68, 109, 106, 97, 52, 120, 77, 84, 69, 120, 77, 84, 69, 120, 73, 106, 112, 55, 73, 109, 82, 108, 100, 109, 78, 118, 90, 71, 85, 105, 79, 105, 74, 54, 90, 121, 73, 115, 73, 109, 82, 108, 100, 107, 108, 107, 73, 106, 111, 121, 78, 67, 119, 105, 99, 50, 86, 117, 90, 70, 82, 112, 98, 87, 85, 105, 79, 105, 73, 121, 77, 68, 73, 119, 76, 122, 65, 48, 76, 122, 69, 52, 73, 68, 65, 48, 79, 106, 77, 122, 79, 106, 69, 52, 73, 105, 119, 105, 100, 87, 108, 107, 73, 106, 111, 105, 89, 84, 82, 109, 77, 68, 69, 52, 77, 84, 85, 116, 90, 84, 85, 122, 78, 83, 48, 48, 79, 68, 77, 119, 76, 87, 73, 53, 89, 122, 81, 116, 78, 109, 90, 109, 90, 71, 73, 48, 90, 109, 90, 105, 78, 106, 81, 49, 73, 110, 48, 115, 73, 117, 97, 86, 115, 79, 97, 78, 114, 106, 73, 121, 77, 106, 73, 121, 77, 106, 73, 105, 79, 110, 115, 105, 90, 71, 86, 50, 89, 50, 57, 107, 90, 83, 73, 54, 73, 110, 112, 110, 73, 105, 119, 105, 90, 71, 86, 50, 83, 87, 81, 105, 79, 106, 73, 48, 76, 67, 74, 122, 90, 87, 53, 107, 86, 71, 108, 116, 90, 83, 73, 54, 73, 106, 73, 119, 77, 106, 65, 118, 77, 68, 81, 118, 77, 84, 103, 103, 77, 68, 81, 54, 77, 122, 77, 54, 77, 84, 103, 105, 76, 67, 74, 49, 97, 87, 81, 105, 79, 105, 74, 104, 78, 71, 89, 119, 77, 84, 103, 120, 78, 83, 49, 108, 78, 84, 77, 49, 76, 84, 81, 52, 77, 122, 65, 116, 89, 106, 108, 106, 78, 67, 48, 50, 90, 109, 90, 107, 89, 106, 82, 109, 90, 109, 73, 50, 78, 68, 85, 105, 102, 88, 48, 61, 34, 125], tail=0}
+2020-04-18 04:33:27,697 - [id: 0xd88401c3, L:/127.0.0.1:41024 - R:/127.0.0.1:8777] FLUSH
